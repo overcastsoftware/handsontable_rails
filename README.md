@@ -1,29 +1,29 @@
 # HandsontableRails
-
-TODO: Write a gem description
+Hansontable-rails is a simple gem to add Jquery-handsontable vendor file to Rails asset pipeline.
 
 ## Installation
+Add this line to your application's Gemfile
 
-Add this line to your application's Gemfile:
+    gem 'jquery-ui-rails'
+    gem 'handsontable-rails'
 
-    gem 'handsontable_rails'
-
-And then execute:
-
+And the execute:
+ 
     $ bundle
+    
+## Useage
 
-Or install it yourself as:
+add the follow line to your application.js and application.css file:
 
-    $ gem install handsontable_rails
+    # application.js
+    //= require jquery.ui.all
+    //= require handsontable_rails
 
-## Usage
+    # application.css
+    *= require jquery.ui.all
+    *= require handsontable_rails
 
-TODO: Write usage instructions here
+## More useage
+you can go (here)[https://github.com/warpech/jquery-handsontable] to learn more about jquery-handsontable
 
-## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
