@@ -6,10 +6,10 @@ require 'handsontable_rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "handsontable_rails"
   spec.version       = HandsontableRails::VERSION
-  spec.authors       = ["李虹霖"]
+  spec.authors       = ["jackie lee"]
   spec.email         = ["894849464@qq.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{mount jquery-handsontable to rails`}
+  spec.summary       = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
